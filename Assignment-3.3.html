@@ -1,0 +1,58 @@
+<html><!-- Head of the Root -->
+    <head><!-- child sub root of the html tag as head tag  -->
+        <!-- it is a title tag -->
+        <title>Dropdown Button</title>
+        <!-- it is a style tag -->
+        <style>
+            .dropbtn {
+                background-color: black;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: red;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: black;
+            }
+        </style>
+    </head>
+    
+    <body>
+    <!-- it is a body tag -->
+        <h2><!-- it is a heading tag -->Dropdown Button</h2>
+
+        <div class="dropdown"><!-- it is a div tag -->
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+    </body>
+</html>
